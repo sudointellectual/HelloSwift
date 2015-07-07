@@ -99,11 +99,33 @@ index = 3
 
 var treeArray = ["Oak", "Pine", "Yew", "Birch"]
 
-if index != nil {
+/*if index != nil {
     println(treeArray[index!])
 } else {
     println("index does not contain a value")
+}*/
+
+if let myValue = index {
+    println(treeArray[myValue])
+} else {
+    println("Index does not contain a value")
 }
+
+//if let constMame1 = optName1, constName2 = optName2, optName3 = ... where
+
+var pet1: String?
+var pet2: String?
+
+pet1 = "cat"
+pet2 = "dog"
+
+if let firstPet = pet1, secondPet = pet2 {
+    println(firstPet)
+    println((secondPet)
+} else {
+    println("insufficient pets")
+}
+
 
 
 
