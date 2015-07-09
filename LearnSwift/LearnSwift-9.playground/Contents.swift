@@ -48,6 +48,30 @@ while i < 20 {
     println("i = \(i)")
 }
 
+var x = 10
+
+if x > 9 {
+    println("x is greater than 9!")
+}
+
+var y = 10
+
+if y > 9 {
+    println("x is greater than 9!")
+} else {
+    println("x is less than 9!")
+}
+
+
+var v = 9
+
+if v == 10 {
+    println("v is 10")
+} else if v == 9 {
+    println("v is 9")
+} else if v == 8 {
+    println("x is 8")
+}
 
 
 
