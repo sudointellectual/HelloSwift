@@ -12,8 +12,6 @@ for index in 1...20 {
     let y = index * x--
 }
 
-
-
 let myLabel = UILabel(frame: CGRectMake(0, 0, 200, 50))
 myLabel.backgroundColor = UIColor.redColor()
 myLabel.text = "Hello Swift."
@@ -95,15 +93,15 @@ if index != nil {
     // index variable has no value assigned to it
 }
 
-index = 3
+//index = 3
 
 var treeArray = ["Oak", "Pine", "Yew", "Birch"]
 
-/*if index != nil {
+if index != nil {
     println(treeArray[index!])
 } else {
     println("index does not contain a value")
-}*/
+}
 
 if let myValue = index {
     println(treeArray[myValue])
@@ -113,18 +111,73 @@ if let myValue = index {
 
 //if let constMame1 = optName1, constName2 = optName2, optName3 = ... where
 
-var pet1: String?
-var pet2: String?
+var pet1: String?var pet2: String?
+pet1 = "cat"pet2 = "dog"
+if let firstPet = pet1, secondPet = pet2 {    println(firstPet)    println(secondPet)} else {    println("insufficient pets")}
 
-pet1 = "cat"
-pet2 = "dog"
+var index2: Int! // Optional is now implicitely wrapped
 
-if let firstPet = pet1, secondPet = pet2 {
-    println(firstPet)
-    println((secondPet)
+index2 = 3
+
+var treeArray2 = ["Oak", "Pine", "Yew", "Birch"]
+
+if index2 != nil {
+    println(treeArray2[index2])
 } else {
-    println("insufficient pets")
+    println("index does not contain a value")
 }
+
+// 8.0
+
+var x1 = -10
+var y1 = 3
+x1 = x1 - 5
+y1 = y1 - 5
+
+if x1 == y1 {
+    println("matches")
+} else {
+    println("doesn't match")
+}
+
+var newResult: Bool?
+
+var x2 = 10
+var y2 = 20
+
+newResult = x2 < y2
+
+var flag = true
+var secondFlag = !flag
+
+if (40 < 20) || (100 < 10) {
+    println("Expression is true")
+} else {
+    println("Expression is false")
+}
+
+if ((10 < 20) != (20 < 10)){    println("Expression is true")}
+
+println("Largest number is \(x2 > y2 ? x2 : y2)")
+
+var y3 = 3
+var z3 = ~y3
+
+var x4 = 171
+var y4 = 3
+var z4 = x4 | y4
+
+var z5 = x4 ^ y4
+
+var z6 = x4 << 1
+
+var z7 = x1 << 1
+
+
+
+
+
+
 
 
 
