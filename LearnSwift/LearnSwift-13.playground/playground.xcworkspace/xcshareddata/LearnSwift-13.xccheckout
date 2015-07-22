@@ -7,18 +7,18 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>6DE5BBB3-F693-4359-9858-64F479DE6289</string>
 	<key>IDESourceControlProjectName</key>
-	<string>playground</string>
+	<string>LearnSwift-13</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A444C72EE48D619AC8D499D0B871A39FEE7DC378</key>
 		<string>https://github.com/sudointellectual/HelloSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LearnSwift/LearnSwift-13.playground/playground.xcworkspace</string>
+	<string>LearnSwift/LearnSwift-13.playground</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A444C72EE48D619AC8D499D0B871A39FEE7DC378</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/sudointellectual/HelloSwift.git</string>
